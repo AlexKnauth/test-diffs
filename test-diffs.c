@@ -4,6 +4,9 @@
 int main(void)
 {
     char* s = malloc(12*sizeof(char));
-    sprintf(s, "Hello World");
-    printf("%s\n", s);
+    if (s != NULL)
+    {
+        sprintf(s, "Hello World");
+        printf("%s\n", s);
+    }
 }
