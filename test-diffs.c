@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char* s = malloc(sizeof(char));
+    char* s = malloc(12*sizeof(char));
     sprintf(s, "Hello World");
     printf("%s\n", s);
 }
