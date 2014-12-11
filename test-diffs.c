@@ -3,5 +3,7 @@
 
 int main(void)
 {
-    
+    char* s = malloc(sizeof(char));
+    sprintf(s, "Hello World");
+    printf("%s\n", s);
 }
